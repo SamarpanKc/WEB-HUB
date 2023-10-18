@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fill Up Form For the IT Course - Tribhuvan University</h1>
+    <form action="post">
+
+        <!-- Name Text -->
+    <div>
+        <label for="Username">Enter Your Full Name :</label>
+        <input type="text" id="Username" placeholder="Full Name" autofocus>
+    </div>
+
+        <!-- Date in Form -->
+    <div>
+        <label for="Date">Enter your DOB :</label>
+        <input type="datetime-local" id="Date" id="" placeholder="Datetime-local"> 
+    </div>
+       
+        <!-- Radio Gender -->
+    <div>
+        <label for="Gender">Select Your Gender :</label>
+        <input type="radio" id="Gender">
+        <label for="Gender">Male</label>
+        <input type="radio">
+        <label for="Gender">Female</label>
+    </div>
+
+    <!-- Select -->
+    <div>
+        <label for="IT">Select your Course :</label>
+        <select name="Courses" id="IT">
+            <option value="BIT">BIT</option>
+            <option value="BSc CSIT">BSc CSIT</option>
+            <option value="BCA">BCA</option>
+        </select>
+        
+    </div>
+
+     <!-- CheckBox -->
+    <div>
+        <input type="checkbox" name="Payment" id="Payment">
+        <label for="Payment">Payment Sucesss (Rs. 1850)</label>
+    </div>
+
+    <!-- Comment Box -->
+    <div>
+        <label for="Remarks">Remarks :</label><br>
+        <textarea name="" id="Remarks" placeholder="Enter your Remarks/Comment" cols="35" rows="3"></textarea>
+    </div>
+
+    
+
+    <!-- Button -->
+    <div>
+        <input type="button" value="Submit" name="Submitbtn">
+    </div>
+
+
+    <p>Note: Use Div Tag instead of Br Tag.</p>
+        
+    </form>
+</body>
+</html>
+
