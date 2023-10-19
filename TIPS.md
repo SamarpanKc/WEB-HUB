@@ -9,3 +9,6 @@ Learning web development...........
 4. Open the URL shown in the VS code live preview in the mobile browser.
 # NOTE 
 Needed Live Preview Extention in VS Code.
+
+# VSCode Keyboard Shortcuts
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
