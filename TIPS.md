@@ -11,4 +11,5 @@ Learning web development...........
 Needed Live Preview Extention in VS Code.
 
 # VSCode Keyboard Shortcuts
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+Open Link: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
