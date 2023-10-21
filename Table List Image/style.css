@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(245, 204, 23);
+}
+
+img{
+    width: 300px;
+}
+td, th{
+    border: 2px solid;
+}
+
+h1, h3 {
+    text-align: center;
+}
