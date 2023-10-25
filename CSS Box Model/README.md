@@ -3,7 +3,7 @@
 class img.png
 2. But in ID we cannot add give multiple IDs for One Element.
 
-# Box Sizing = Border Box
+# Box Sizing
 ![Box Sizing in CSS](image.png)
 The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height: Both divs are the same size now! Hooray!
 
