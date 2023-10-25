@@ -1,0 +1,47 @@
+*{ 
+    /* [* gresi sabbai ma style hunxa]  
+    Which is UNIVERSAL Selector */
+
+    margin: 10px;
+    padding: 10px;
+}
+/* Class Selector */
+.red{
+    background-color: red;
+}
+.red:hover{
+    background-color: rgb(255, 124, 124);
+}
+
+
+/* ID Selector */
+#yellow{
+    background-color: yellow;
+}
+
+
+
+/* CHILD Selector */
+.red > p{
+    color: white;
+}
+
+
+
+
+/* Pseudo Selector */
+a:visited{
+    color: rgb(236, 9, 236);
+}
+
+
+
+/* NOT Visited Links */
+a:link{
+    color: rgb(1, 170, 66);
+}
+
+/* Active is similar ko hover but active take action only if we click the link  */
+a:active{
+    background-color: rgba(217, 255, 0, 0.267);
+}
