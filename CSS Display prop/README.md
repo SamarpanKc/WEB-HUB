@@ -11,8 +11,8 @@
 
 The major difference compared to display: inline is the ability to apply dimensions, making it suitable for inline elements with specified sizes.
 
-
-fig:- Diffrences
+![image](https://github.com/SamarpanKc/WEB-HUB/assets/110466655/ef384c42-9d73-4781-9c48-690cafe19372)
+_fig:- Diffrences_
 
 *Resource*
 https://developer.mozilla.org/en-US/docs/Web/CSS/display
