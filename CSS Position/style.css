@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    margin: 15px;
+    border: 8px solid red;
+}
+
+.box{
+    height: 20vh;
+    width: 90vh;
+    padding: 3px;
+    margin: 5px;
+    border: 2px solid black;
+}
+/* .box1{
+    background-color: aqua;
+    position: relative;
+    //sending forward
+    z-index: 1;
+}
+.box2{
+    background-color: blue;
+    position: relative;
+    bottom: 80px;
+    left: 40px;   
+} */
+.box3{
+    background: pink;
+    position: absolute;
+    z-index: 1;
+    top: 0px; /* direct goes to nearest positioned parent*/
+}
+.box4{
+    position: relative;
+    background: yellow;
+}
+.adbox{
+    height: 46px;
+    width: 46px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 52px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: fixed;
+    top: 600px;
+    left: 1300px;
+}
+.ad p{
+    font-size: 28px;
+}
