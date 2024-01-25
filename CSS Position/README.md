@@ -2,8 +2,8 @@
 *_Chrome or any browser has `position:static;` by deafult; which we can't change any positions of them, that is accordingly about the code we wrote in html._*
 _*NOTE:-* transform, filter or perspective properties can also make an element appear as positioned._
 
-## Types of Positions
-# Understanding "position: relative" in CSS
+# Types of Positions
+## 1. Understanding "position: relative" in CSS
 
 In CSS, the `position: relative` property is used to position an element relative to its normal position in the document flow. Let's dive into a clear explanation of this concept.
     - It is dynamic we can add top, bottom, left, right whatever we want.
@@ -23,8 +23,9 @@ When you apply `position: relative` to an element, it remains in the normal flow
 `position: relative;`
 `z-index: 1;` _where 0 is auto or deafult._
  Useful for managing the visual hierarchy of overlapping elements, such as dropdown menus or modal dialogs, in web development.
+
     
-# 2. Understanding "position: absolute" in CSS
+## 2. Understanding "position: absolute" in CSS
 
 In web development, the CSS property `position: absolute` plays a crucial role in positioning elements on a webpage. Let's break down this concept in simple terms.
 
@@ -38,7 +39,8 @@ When you apply `position: absolute` to an element, you're telling the browser to
 
 2. **No Positioned Ancestor:** If there's no positioned ancestor, it positions itself relative to the document body.
 
-# 3. Understanding "position: fixed" and "position: sticky" in CSS
+
+## 3. Understanding "position: fixed" and "position: sticky" in CSS
 
 In CSS, the `position: fixed` and `position: sticky` properties are used to control the positioning of elements on a webpage. Let's explore these concepts and understand where they might be used in different sections of a website.
 
