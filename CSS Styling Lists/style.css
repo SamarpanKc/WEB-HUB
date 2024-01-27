@@ -1,0 +1,32 @@
+nav ul li{
+    /* list-style: devanagari; */
+    list-style-type: "😁 ";
+    list-style-position: inside;
+    background-color: rgb(132, 182, 187);
+
+}
+.dbtn {
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin: 20px; /* Add margin for better spacing */
+}
+
+.dbtn a {
+  text-decoration: none;
+}
+
+.dbtn button {
+  background-color: rgb(5, 134, 255);
+  color: #fff;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: bold; /* Set font weight to bold */
+  cursor: pointer;
+  transition: background-color 0.9s; /* Add a smooth transition effect */
+}
+
+.dbtn button:hover {
+  background-color: rgb(4, 107, 204); /* Change background color on hover */
+}
