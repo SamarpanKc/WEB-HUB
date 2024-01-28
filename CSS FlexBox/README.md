@@ -24,6 +24,8 @@
 ### 6. `gap`
    - Sets the spacing between the flex items.
    - Values: length units, percentage, or `normal`.
+![image](https://github.com/SamarpanKc/WEB-HUB/assets/110466655/aae7cd8b-56f1-46aa-a74d-99bb02f6c900)
+
 
 ## Item Properties
 
@@ -42,3 +44,5 @@
 ### 4. `align-self`
    - Allows the default alignment to be overridden for a particular flex item.
    - Values: `auto`, `flex-start`, `flex-end`, `center`, `baseline`, `stretch`.
+![image](https://github.com/SamarpanKc/WEB-HUB/assets/110466655/89e7f559-0a3c-420a-8297-a4036c5050cb)
+
