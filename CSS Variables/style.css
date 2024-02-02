@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /*Can add colors here and call this using var function and apply easily*/
+    /* Global Variables */
+    --color: #1f89f3;
+    --seccolor: #8cb6e0;
+}
+
+.nav{
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--seccolor);
+}
+ul{
+    --coolor: white;
+    color: var(--coolor);
+    /* Local Variables */
+    display: flex;
+    justify-content: end;
+
+}
+ul li{
+    list-style: none;
+    padding: 16px;
+}
