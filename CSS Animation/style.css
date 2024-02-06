@@ -1,0 +1,47 @@
+.container{
+    background-color: #0f3c43;
+    height: 80vh;
+    width: 30vw;
+}
+.box{
+    height: 58px;
+    width: 68px;
+    /* animation-name: MeroAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-play-state: paused; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: MeroAnimation 3s ease-in-out 1s infinite,
+               MeroAnimation1 3s ease-in-out 1s infinite;
+}
+@keyframes MeroAnimation {
+    from{
+        background-color: #f0f01a;
+        color: black;
+    }to{
+        background-color: #eb20bf;
+        transform: translateX(340px);
+        color: #fff;
+    }
+}
+
+@keyframes MeroAnimation1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(120deg);
+    }
+    50%{
+        transform: rotate(240deg);
+    }
+    75%{
+        transform: rotate(310deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
