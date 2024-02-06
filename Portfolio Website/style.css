@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #BDC5D0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Radley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.hero{
+    width: 100%;
+    height: 74vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 197px;
+}
+.hero .text{
+    color: #293042;
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    line-height: 90px;
+}
+.hero .text .hi{
+    font-weight: 500;
+    font-size: 44px;
+}
+.hero .text .wlc{
+    color: #E06B40;
+}
+.hero .media img{
+    transition: 1s;
+}
+
+.hero .media img:hover{
+    filter:grayscale(40%);
+    cursor: pointer;
+}
+
+.hero .media .icons{
+    display: flex;
+    align-items: center;
+}
+.hero .media .icons i{
+    height: 28px;
+    width: 28px;
+    margin: 23px;
+    color: #293042;
+    transition: 1s;
+}
+i:hover{
+    filter: drop-shadow(4px 8px 22px #293042);
+}
+
+/*NAME */
+.name{
+    text-align: center;
+    color: #293042;
+    font-size: 72px;
+    font-family: 'Radley', serif;
+    line-height: 42px;
+}
+.name .im{
+    font-size: 42px;
+}
+.name .paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+/* PROJECTS */
+.projects{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* .projects{} */
+
+.projects .text{
+    margin: 70px 0;
+    background-color: #293042;
+    height: 70vh;
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #BDC5D0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero{
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 92px;
+        margin-bottom: 80px;
+    }
+    .hero .text{
+        font-size: 30px;
+        line-height: 65px;
+        text-align: center;
+        align-items: center;
+    }
+    .hero .text .hi{
+        font-weight: 500;
+        font-size: 24px;
+    }
+    /* .hero .media .icons{
+        flex-direction: column;
+    } */
+    /* .hero .media img{
+        width: 250px;
+        justify-content: end;
+    } */
+    .name{
+        font-size: 52px;
+    }
+    .name .paragraph{
+        font-size: 12px;
+    }
+}
