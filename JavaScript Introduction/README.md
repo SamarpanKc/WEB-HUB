@@ -34,3 +34,7 @@ Comments in JavaScript are used to provide explanations within the code. They ar
      multi-line comment
   */
 Comments help improve code readability and understanding.
+
+JS Basic Exercise-1 
+![image](https://github.com/SamarpanKc/WEB-HUB/assets/110466655/74ad1dab-d030-4574-8274-bc7538f1193a)
+
