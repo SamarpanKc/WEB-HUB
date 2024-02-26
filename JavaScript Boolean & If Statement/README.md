@@ -67,3 +67,10 @@ It evaluates each condition sequentially until one evaluates to `true`, then exe
     - Update the code so that in order to get a discount, people must meet the age requirement and it is also not holiday.
     - **Note:** && has higher priority than || so use()
     - Try changing the value of isholiday to display different messages.
+6. We'll create a coin-flip game (create 1 HTML file):
+    - Generate a random number with Math.random(). Save it in a variable.
+    - Create an if-statement and check: If the number is less than 0.5, then display 'heads' in the console. Else display 'tails' in the console.
+    - Instead of displaying 'heads' or 'tails' in the console, save the result in a variable called 'result'.
+    - Let's say we're trying to guess the result. Create a variable called 'guess' and save your guess ('heads' or 'tails').
+    - If your guess matches the result, display 'You win!' in the console If your guess does not match the result, display 'You lose!'
+    - (Challenge) Instead of using if-statements in the previous exercises, try switching them into ternary operators (condition ? A: B).
