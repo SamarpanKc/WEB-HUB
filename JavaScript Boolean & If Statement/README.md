@@ -60,9 +60,9 @@ It evaluates each condition sequentially until one evaluates to `true`, then exe
 2. Try changing the vlaue in the `hour` variable tomake it display diffrent messages.
 3. Create a variable called 'name' and save your name inside (as a string). Update the if-statement to display your name in each message. For eg. `'Good Morning & {name}!'`
 4. Imagine a Shom Park that has a discount of for children (6 years and younger) or seniors (65 years and older)
-- Create a variable and save a person's age inside.
-- Create and if statement that checks if the person qualifies for a display no discount in the console (try to use || operator) 
-- Try changing the age variable into display different messages.
+    - Create a variable and save a person's age inside.
+    - Create and if statement that checks if the person qualifies for a display no discount in the console (try to use || operator) 
+    - Try changing the age variable into display different messages.
 5. Let's say the discount is only available if it is not a holiday. Create a variable `const isHoliday = true;`
     - Update the code so that in order to get a discount, people must meet the age requirement and it is also not holiday.
     - **Note:** && has higher priority than || so use()
