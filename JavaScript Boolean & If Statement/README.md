@@ -74,3 +74,10 @@ It evaluates each condition sequentially until one evaluates to `true`, then exe
     - Let's say we're trying to guess the result. Create a variable called 'guess' and save your guess ('heads' or 'tails').
     - If your guess matches the result, display 'You win!' in the console If your guess does not match the result, display 'You lose!'
     - (Challenge) Instead of using if-statements in the previous exercises, try switching them into ternary operators (condition ? A: B).
+7. Challenge Exercises
+Setup: we'll improve the Cart Quantity project. First, make a copy of the project from exercise 5k (if you didn't do 5k, check the solutions).
+    - Let's say the cart has a maximum quantity of 10. Before updating the quantity, check if the quantity will be greater than 10: If it will, display a popup saying 'The cart is full' and don't update the quantity.
+Otherwise, update the quantity and console.log() it as usual.
+    - In exercises 5i - 5k, we created the 'Remove from cart', '-2', and '-3' buttons. Before updating the quantity, check if it will go below 0:
+If it will, create a popup saying 'Not enough items in the cart' and don't update the quantity.
+Otherwise, update the quantity and console.log() it as usual.
