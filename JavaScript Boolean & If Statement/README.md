@@ -54,7 +54,7 @@ It evaluates each condition sequentially until one evaluates to `true`, then exe
 
 # Exercises
 **Note:** Do these in .html file
-1. Create a variable called 'hour' and save the current hour of the day (use 24-hour format and save it as a number hetven 0-2
+1. Create a variable called 'hour' and save the current hour of the day (use 24-hour format and save it as a number hetven 0-23
     - If hour is bet" 6 6 and 12, display 'Good Morning'
     - Similarly, 13-17, Good Aftermoon otherwise Good Evening.
 2. Try changing the vlaue in the `hour` variable tomake it display diffrent messages.
