@@ -6,12 +6,12 @@ Creating funtion,
     function name1(){
         console.log("Hello!");
         console.log(2+44);
-    } //it only create funtion, not run
+    } //it only create funtion, not run code
 
     // Calling the function by it's name
     //for run code
     name1();
-    // Whenever i need i funtion i can call it by it's name
+    // Whenever i need the funtion i can call it by it's name
     name1();
     // now it runs the funtion 2 times
 ```
