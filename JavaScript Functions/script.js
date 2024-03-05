@@ -8,7 +8,10 @@ name1();
 name1();
 
 
-
+function calcTax(Amount){ //parameter name
+    console.log(Amount*0.1);
+}
+calcTax(3000);// implement value in parameter
 
 function codee(name) {
     console.log("this is " + name + " functions");
@@ -16,8 +19,10 @@ function codee(name) {
     console.log("this is " + name + " loops");
     console.log("this is " + name + " statements");
 }
+codee("JavaScript");
 
-// codee("JavaScript")
+
+
 
 function sum(a, b){
     // console.log(a+b);
@@ -31,7 +36,10 @@ console.log("The sum is: ", result1);
 console.log("The sum is: ", result2);
 console.log("The sum is: ", result3);
 
+
+
 // Arrow function
+// const func1=()=>{}
 
 const func1 = (s)=>{
     console.log("I'm an arrow function", s);
