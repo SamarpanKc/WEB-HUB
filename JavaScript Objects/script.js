@@ -1,21 +1,40 @@
-// Object 
-const product ={
-    name : 'Smart Phone',
-    price : 'Rs.22000'
-};
-console.log(product);
+//Object
+let music= {
+    name: "Adrishya Bhawana",
+    singer: "Samarpan KC",
+    description(){
+        return this.name; //this use to access this funtion object
+    },
+}
+console.log(music.name);
+console.log(music.singer);
+console.log(music.description());
 
-// Accessing specific value
-console.log(product.price);
+//Wrapper Object
+let b = new Object({
+    name: "Adrishya Bhawana",
+    singer: "Samarpan KC",
+    description(){
+        writter: "Samarpan KC"
+    },
+})
 
-// Change value of property
-product.name = 'Refrigerator';
-console.log(product.name);
+//Modify Objects
+music.name= "Adhuro Kathaa";
+console.log(music.name);
 
-// Adding new property and value
-product .date = 'March, 2024';
-console.log(product);
+//Adding objest's key and values outside the Object
+music.language= "Nepali";
+console.log(music.language);
 
-// Delete property
-delete product.date;
-console.log(product);
+// Delete the key and value from the object
+delete music.description;
+console.log(music);
+
+// Diplay all the objects in Array
+console.log(Object.entries(music));
+
+// Copy the object to new one
+let a ={}
+Object.assign(a, music)
+console.log(a)
