@@ -1,0 +1,16 @@
+.greet{
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 56px;
+    cursor: grab;
+}
+.cards{
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    margin-top: 56px;
+}

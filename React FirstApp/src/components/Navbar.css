@@ -1,0 +1,30 @@
+body{
+    background-color: #b78bff;
+}
+.Logo{
+    font-weight: 500;
+    margin-left: 16px;
+
+}
+nav, ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+li:hover{
+    opacity: .5;
+}
+ul{
+    gap: 46px;
+    margin-right: 16px;
+}
+nav{
+    justify-content: space-between;
+    background-color: #ffffff76;
+    border-radius: 12px;
+    padding: 18px;
+    margin: 16px;
+}
