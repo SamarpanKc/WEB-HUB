@@ -20,7 +20,7 @@ Diffrences?
 
 In summary, libraries provide tools for you to use as needed, while frameworks provide a structured environment to build applications. Think of it as **you call a library,** but **a framework calls you**. 📚🔧
 
-we can  only import a single tag in function→ return( <div> </div> ), but if we want multiplr just warp retrun( <> ….tags….. </> ) like this.
+we can  only import a single tag in function→ `return( <div> </div> )`, but if we want multiplr just warp `retrun( <> ….tags….. </> )` like this.
 
 Result:
 ![Screenshot 2024-11-09 135415](https://github.com/user-attachments/assets/2a5072b7-7fbe-44a6-9771-c6b8712c18d4)
