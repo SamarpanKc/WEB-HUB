@@ -13,7 +13,7 @@
 
 ## Examples
 
-1.
+A.
 
 ```jsx
 const [Name, setName] = useState("Samarpan");
@@ -33,6 +33,7 @@ const handleChange = (e) => {
 - `<input>` with `onChange`: Links the input field's value to Name and calls handleChange on user input to reflect changes dynamically.
 <br><br>
 
+B. 
 ```jsx
 <input type="text" name='email' onChange={handleChange2}/>
 <input type="text" name='phone' onChange={handleChange2}/>
